@@ -2,11 +2,13 @@
 
 ### Introduction
 This lab demonstrates the use of a list to contain the neopixel light pins numbers in a specific
-repeating pattern. The ‘randint’ function is also used to create the actual light displayed.
+repeating pattern that you choose. The ‘randint’ function is also used to create the actual light displayed.
 
 ### Procedure
 - Your code should include the following:
-  - A list of the pins which use it pixel at least once
+  - A list of the neopixel light pins in the order in which they will be used
+	- You choose the order of the pins which can be any non-sequential ordering of the 10 neopixels
+	- This list should be stored in a variable named pattern
   - A function that returns a tuple with the red, green and blue values randomly generated
     - Don’t forget to import the ‘random’ library!
     - ![lp1](lp1.jpg)
